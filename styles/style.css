@@ -14,6 +14,11 @@ body {
     font-family: "Azeret Mono";
 }
 
+section {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 p {
     color: rgb(13, 19, 33);
     opacity: 0.7;
@@ -65,13 +70,124 @@ p {
     padding: 21px 24px;
 }
 
+/* Development */
+
+.development {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-bottom: 88px;
+}
+
+.dev-wrapper {
+    padding: 80px 97px;
+}
+
+.dev-txt {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.dev-txt h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.dev-txt p {
+    line-height: 26px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.info-content {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-content:nth-child(2) {
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 48.8px;
+}
+
+.info-content .content {
+    width: 468px;
+}
+
+.info-content .content h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.info-content .content p {
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.info-content .content a {
+    display: inline-block;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+
+}
+
+.info-content img {
+    width: 240px;
+    height: 240px;
+}
+
+/* Inspiration */
+.insp-txt h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.insp-txt p {
+    line-height: 26px;
+}
+
+.insp-txt {
+    max-width: 852px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.insp-vid {
+    height: 614px;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.insp-vid iframe {
+    border-radius: 16px;
+}
 
 
 /* Support */
 .support {
-    width: 1140px;
     height: 313px;
-    margin: 0 auto;
     background: url("../assets/handshake.jpg"), rgba(0, 0, 0, 0.2);
     border-radius: 16px;
     background-blend-mode: overlay;
